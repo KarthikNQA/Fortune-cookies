@@ -14,4 +14,7 @@ public class Fortune_cookies1 {
 public void fortunes() {
 	// TODO Auto-generated method stub
 	Random rand = new Random();
-	
+	int r = rand.nextInt(fortunes.length);
+	System.out.println(fortunes[r]);
+}
+}
