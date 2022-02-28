@@ -16,5 +16,4 @@ public void fortunes() {
 	Random rand = new Random();
 	int r = rand.nextInt(fortunes.length);
 	System.out.println(fortunes[r]);
-}
-}
+
