@@ -12,7 +12,7 @@ public class Fortune_cookies1 {
 			"You smell bad." };
 
 public void fortunes() {
-	// TODO Auto-generated method stub
+	
 	Random rand = new Random();
 	int r = rand.nextInt(fortunes.length);
 	System.out.println(fortunes[r]);
